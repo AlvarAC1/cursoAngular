@@ -1,0 +1,348 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bo",
+				"bodyParser"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"h",
+				"h3\tTag"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"s",
+				"style\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 604,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 438,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 379,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/curso-mean2"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/curso-mean2/package-lock.json",
+		"/C/wamp/www/curso-mean2/index.js",
+		"/C/wamp/www/curso-mean2/node_modules/index.js",
+		"/C/Users/Àlvar/Desktop/CGT apuntes",
+		"/C/Users/Àlvar/Desktop/Curso/Consola entrada",
+		"/C/Users/Àlvar/Desktop/Curso SQL/BBDD Alvar Inicial 20190418 0920.sql",
+		"/C/Users/Àlvar/Desktop/Curso/demo-04/.git/config",
+		"/C/Users/Àlvar/Desktop/Curso/demo-03/.git/config",
+		"/C/Users/Àlvar/Documents/Router",
+		"/C/Users/Àlvar/Desktop/5454.php",
+		"/C/Users/Àlvar/Desktop/Examen Diseño/animación submarino.html",
+		"/E/2º DAW/Alvar Clase - PC/DW Entorno Cliente/ejercicioTABLA.html",
+		"/C/Users/Àlvar/Downloads/Ejercicios teórico prácticos CSS 4/bola rotando con animación.html",
+		"/C/Users/Àlvar/Desktop/Examen Diseño/bola rotando con animación.html",
+		"/C/Users/Àlvar/Desktop/Examen Diseño/Prueba.html",
+		"/C/Users/Àlvar/Desktop/emilio.html",
+		"/C/Users/Àlvar/Desktop/view.html",
+		"/E/2º DAW/Alvar Clase - PC/DW Entorno Cliente/ejercicioTABLA.js",
+		"/C/Users/Àlvar/Desktop/5.2.php",
+		"/C/Users/Àlvar/Desktop/5.2.css",
+		"/C/Users/Àlvar/Desktop/#pp1{.css",
+		"/C/Users/Àlvar/Desktop/ggg.php",
+		"/C/Users/Àlvar/Desktop/holamundo.js",
+		"/H/USB 1º DAW/DAW/Programacion/Apuntes Programacion.java",
+		"/I/2º DAW/Alvar Clase/DW Entorno Cliente/prueba.js"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"onkeypress",
+			"Sólo",
+			"Sólo números"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 604,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								604,
+								604
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "proyecto-curso-mean2.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
