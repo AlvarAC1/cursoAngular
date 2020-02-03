@@ -90,9 +90,28 @@ function loginUser(req, res){
 	}) //con mongoose lanzamos la consulta, en este caso es como un where
 }
 
+function updateUser(req, res){
+	var userId = req.params.id;
+	var update = req.body;
+
+	User.findByIdAndUpdate(userId, update, (err, userUpdated) => {
+		if(err){
+			res.status(404).send({message: 'Error al actualizar el usuario'})
+		}else{
+			if(!userUpdated){
+				res.status(404).send({message: 'No se ha podifo actualizar el usuario'})
+			}else{
+				res.status(200).send({user: userUpdated});
+			}
+
+		}
+	});
+}
+
 // para poder usar estos metodos fuera en una ruta fuera de este fichero
 module.exports = {
 	pruebas,
 	saveUser,
-	loginUser
+	loginUser,
+	updateUser
 };
