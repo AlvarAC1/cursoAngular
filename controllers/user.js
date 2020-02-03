@@ -108,10 +108,32 @@ function updateUser(req, res){
 	});
 }
 
-// para poder usar estos metodos fuera en una ruta fuera de este fichero
+function uploadImage(res, req){
+
+	console.log(req);
+//	console.log(req);
+
+	var userId = req.params.id;
+	var file_name = 'No subido...';
+
+	if(req.files){
+		var file_path = req.files.image.path;
+		var file_split = file_path.split('\\');
+		var file_name = file_split[2];
+
+
+		console.log(file_split);
+	}else{
+		res.status(200).send({message: 'No has subido ninguna imagen...'});
+	}
+
+}
+
+// para poder usar estos metodos fuera
 module.exports = {
 	pruebas,
 	saveUser,
 	loginUser,
-	updateUser
+	updateUser,
+	uploadImage
 };
