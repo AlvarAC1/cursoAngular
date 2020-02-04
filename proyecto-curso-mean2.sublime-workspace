@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"file",
+				"file_split"
+			],
+			[
+				"md",
+				"md_upload"
+			],
+			[
+				"fil",
+				"file_path"
+			],
+			[
+				"us",
+				"userUpdated"
+			],
+			[
+				"use",
+				"userUpdated"
+			],
+			[
+				"u",
+				"update"
+			],
+			[
+				"p",
+				"params"
+			],
+			[
 				"pass",
 				"password"
 			],
@@ -108,7 +136,7 @@
 			"file": "controllers/user.js",
 			"settings":
 			{
-				"buffer_size": 2477,
+				"buffer_size": 3263,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -117,16 +145,7 @@
 			"file": "routes/user.js",
 			"settings":
 			{
-				"buffer_size": 546,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "services/jwt.js",
-			"settings":
-			{
-				"buffer_size": 398,
+				"buffer_size": 1015,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -166,13 +185,19 @@
 	[
 		"/C/wamp/www/curso-mean2",
 		"/C/wamp/www/curso-mean2/controllers",
+		"/C/wamp/www/curso-mean2/middlewares",
 		"/C/wamp/www/curso-mean2/models",
 		"/C/wamp/www/curso-mean2/routes",
-		"/C/wamp/www/curso-mean2/services"
+		"/C/wamp/www/curso-mean2/services",
+		"/C/wamp/www/curso-mean2/uploads",
+		"/C/wamp/www/curso-mean2/uploads/users"
 	],
 	"file_history":
 	[
 		"/C/wamp/www/curso-mean2/package.json",
+		"/C/wamp/www/curso-mean2/middlewares/authenticated.js",
+		"/C/wamp/www/curso-mean2/services/jwt.js",
+		"/C/wamp/www/curso-mean2/midedlewares/authenticated.js",
 		"/C/wamp/www/curso-mean2/models/user.js",
 		"/C/wamp/www/curso-mean2/models/song.js",
 		"/C/wamp/www/curso-mean2/models/album.js",
@@ -208,7 +233,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -272,7 +297,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -288,64 +313,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "controllers/user.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2477,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1371,
-								1371
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 756.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "routes/user.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 546,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								479,
-								479
+								147,
+								147
 							]
 						],
 						"settings":
@@ -360,20 +329,48 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "services/jwt.js",
+					"buffer": 2,
+					"file": "controllers/user.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 398,
+						"buffer_size": 3263,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14,
-								14
+								3221,
+								3221
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1566.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "routes/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
 							]
 						],
 						"settings":
@@ -384,7 +381,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -392,7 +389,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -429,7 +426,7 @@
 	"project": "proyecto-curso-mean2.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
