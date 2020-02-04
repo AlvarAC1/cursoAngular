@@ -8,8 +8,7 @@ var AlbumSchema = Schema({
 		description: String,
 		year: Number,
 		image: String,
-		// relacionamos para mongoose el album con el artista, por su relación
-		artist: { type: Schema.ObjectiId, ref: 'Artist'}
+		artist: { type: Schema.ObjectId, ref: 'Artist'}
 });
 
 module.exports = mongoose.model('Album', AlbumSchema);
