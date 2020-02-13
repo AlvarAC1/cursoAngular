@@ -4,8 +4,48 @@
 		"selected_items":
 		[
 			[
+				"art",
+				"artist"
+			],
+			[
+				"ar",
+				"artist"
+			],
+			[
+				"a",
+				"artistId"
+			],
+			[
+				"artis",
+				"artistStored"
+			],
+			[
+				"get",
+				"getArtist"
+			],
+			[
+				"pa",
+				"path_file"
+			],
+			[
+				"im",
+				"imageFile"
+			],
+			[
+				"ima",
+				"getImageFile"
+			],
+			[
+				"user",
+				"userUpdated"
+			],
+			[
 				"file",
-				"file_split"
+				"file_name"
+			],
+			[
+				"f",
+				"findByIdAndUpdate"
 			],
 			[
 				"md",
@@ -40,16 +80,8 @@
 				"password"
 			],
 			[
-				"user",
-				"userStored"
-			],
-			[
 				"has",
 				"hash"
-			],
-			[
-				"pa",
-				"password"
 			],
 			[
 				"b",
@@ -116,6 +148,14 @@
 	"buffers":
 	[
 		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 604,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "index.js",
 			"settings":
 			{
@@ -128,24 +168,24 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 453,
+				"buffer_size": 469,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "controllers/user.js",
+			"file": "controllers/artist.js",
 			"settings":
 			{
-				"buffer_size": 3263,
+				"buffer_size": 1040,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "routes/user.js",
+			"file": "routes/artist.js",
 			"settings":
 			{
-				"buffer_size": 1015,
+				"buffer_size": 396,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -189,21 +229,24 @@
 		"/C/wamp/www/curso-mean2/models",
 		"/C/wamp/www/curso-mean2/routes",
 		"/C/wamp/www/curso-mean2/services",
-		"/C/wamp/www/curso-mean2/uploads",
-		"/C/wamp/www/curso-mean2/uploads/users"
+		"/C/wamp/www/curso-mean2/uploads"
 	],
 	"file_history":
 	[
+		"/C/wamp/www/curso-mean2/models/album.js",
+		"/C/wamp/www/curso-mean2/routes/artist.js",
+		"/C/wamp/www/curso-mean2/controllers/artist.js",
+		"/C/wamp/www/curso-mean2/routes/user.js",
+		"/C/wamp/www/curso-mean2/controllers/user.js",
+		"/C/wamp/www/curso-mean2/app.js",
+		"/C/wamp/www/curso-mean2/index.js",
 		"/C/wamp/www/curso-mean2/package.json",
 		"/C/wamp/www/curso-mean2/middlewares/authenticated.js",
 		"/C/wamp/www/curso-mean2/services/jwt.js",
 		"/C/wamp/www/curso-mean2/midedlewares/authenticated.js",
 		"/C/wamp/www/curso-mean2/models/user.js",
 		"/C/wamp/www/curso-mean2/models/song.js",
-		"/C/wamp/www/curso-mean2/models/album.js",
 		"/C/wamp/www/curso-mean2/models/artist.js",
-		"/C/wamp/www/curso-mean2/app.js",
-		"/C/wamp/www/curso-mean2/index.js",
 		"/C/wamp/www/curso-mean2/controlers/user.js",
 		"/C/wamp/www/curso-mean2/node_modules/fd-slicer/index.js",
 		"/C/wamp/www/curso-mean2/package-lock.json",
@@ -233,7 +276,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -268,11 +311,41 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 604,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "index.js",
 					"semi_transient": false,
 					"settings":
@@ -297,24 +370,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 453,
+						"buffer_size": 469,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								147,
-								147
+								0,
+								0
 							]
 						],
 						"settings":
@@ -325,52 +398,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "controllers/user.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3263,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3221,
-								3221
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1566.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "routes/user.js",
+					"file": "controllers/artist.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1015,
+						"buffer_size": 1040,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								58,
-								58
+								516,
+								516
 							]
 						],
 						"settings":
@@ -382,6 +427,34 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "routes/artist.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								330,
+								330
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -464,7 +537,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 184.0,
+	"side_bar_width": 175.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
