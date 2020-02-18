@@ -9,6 +9,8 @@ var multipart = require('connect-multiparty');
 var md_upload = multipart({ uploadDir: './uploads/album'});
 
 api.get('/album', md_auth.ensureAuth, AlbumController.getAlbum);
+api.post('/album', md_auth.ensureAuth, AlbumController.saveAlbum);
+
 
 
 // para poder usarlo fuera de este fichero
