@@ -9,8 +9,23 @@ var Album = require('../models/album');
 var Song = require('../models/song');
 
 function getAlbum(req, res){
-	res.status(200).send({message: 'Acción getAlbum'});
+	var albumId = req.params.id; 
 
+	// path seria la propiedad donde se van a cargar los datos asociados a esta propiedad
+	// con populate({path: 'artist'}) conseguimos todos los datos del artista que ha creado un album
+	// saca todo el documento cuyo id esta guardado default en la propiedad artist del documento que tengamos guardado en la base de datos
+	
+	Album.findById(albumId).populate({path: 'artist'}).exec((err, album)=>{
+		if(err){
+			res.status(500).send({message: 'Error en la petición'});
+		}else{
+			if(!album){
+				res.status(404).send({message: 'El album no existe.'});
+			}else{
+				res.status(200).send({album});
+			}
+		}
+	});
 }
 
 function saveAlbum(req, res){
