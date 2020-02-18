@@ -14,7 +14,7 @@ function getAlbum(req, res){
 	// path seria la propiedad donde se van a cargar los datos asociados a esta propiedad
 	// con populate({path: 'artist'}) conseguimos todos los datos del artista que ha creado un album
 	// saca todo el documento cuyo id esta guardado default en la propiedad artist del documento que tengamos guardado en la base de datos
-	
+
 	Album.findById(albumId).populate({path: 'artist'}).exec((err, album)=>{
 		if(err){
 			res.status(500).send({message: 'Error en la petición'});
@@ -23,6 +23,33 @@ function getAlbum(req, res){
 				res.status(404).send({message: 'El album no existe.'});
 			}else{
 				res.status(200).send({album});
+			}
+		}
+	});
+}
+
+function getAlbums(req, res){
+	var artistId = req.params.artist;
+
+	if(!artistId){
+		// Sacar todos los albums de la bbdd
+		var find = Album.find({}).sort('title');
+	}else{
+		// Sacar los albums de un artista concreto de la bbdd
+		var find = Album.find({artist: artistId}).sort('year');
+	}
+
+	// en que propiedad va a cargar/popular esa informacion (artist), 
+	// va a ver que porpiedad tiene el id de otro objeto guardado, y 
+	// ahi es donde va a sustituir los datos del otro objeto al que esta asociado
+	find.populate({path: 'artist'}).exec((err, albums) => {
+		if(err){
+			res.status(500).send({message: 'Error en la petición'});
+		}else{
+			if(!albums){
+				res.status(404).send({message: 'No hay albums'});
+			}else{
+				res.status(200).send({albums});
 			}
 		}
 	});
@@ -52,7 +79,10 @@ function saveAlbum(req, res){
 }
 
 
+
+
 module.exports = {
 	getAlbum,
-	saveAlbum
+	saveAlbum,
+	getAlbums
 };
