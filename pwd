@@ -1,0 +1,119 @@
+[33mcommit 7843a86116705f0598263b0455b023a0cadd4e09[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Tue Feb 18 21:05:37 2020 +0100
+
+    fin tema 39: Controlador de canciones y rutas
+
+[33mcommit c49361af8a3254cad7a1a63fac751487cce7e4c1[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Tue Feb 18 20:56:08 2020 +0100
+
+    fin tema 38: Metodos para las imagenes de albums albums
+
+[33mcommit 4c9f075e689b710c8c159cdbabe63a439566a41e[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Tue Feb 18 20:47:02 2020 +0100
+
+    fin tema 37: Eliminar albums
+
+[33mcommit 606f6fb6ce883d3f32ac39ade9de0a758920ef47[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Tue Feb 18 20:40:49 2020 +0100
+
+    fin tema 36: Actualizar albums
+
+[33mcommit ce038d18023e3ef95190c7427df60c1de7603e85[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Tue Feb 18 20:32:39 2020 +0100
+
+    fin tema 35: Mostrar albums
+
+[33mcommit e0e9109efb1479b9f189a9e7edae37c0e836bb07[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Tue Feb 18 13:34:51 2020 +0100
+
+    fin tema 34: Devolver un album
+
+[33mcommit 6ac2aea0fe18d4e9f760e5744dfe05fdc0a1503f[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Tue Feb 18 13:14:28 2020 +0100
+
+    fin tema 33: Guardar un album
+
+[33mcommit 3af001b1d24a898f52d4fa29cc89dc188835d51d[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Tue Feb 18 13:00:44 2020 +0100
+
+    fin tema 32: Controlador y conseguir un album
+
+[33mcommit 0096040ebe9a7d2586c82410c88f10c8702cb467[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Thu Feb 13 21:24:05 2020 +0100
+
+    fin tema 31: Métodos las imágenes del artista
+
+[33mcommit ed33cfec80cec16957300f284751876fda7d8ae9[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Thu Feb 13 20:53:24 2020 +0100
+
+    fin tema 30: Eliminar artistas
+
+[33mcommit d70dbfc9a30c23ea918507e6cd7e02fd5a4928c9[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Thu Feb 13 20:08:15 2020 +0100
+
+    fin tema 29: Actualizar artistas
+
+[33mcommit 781d1714196ff21ec4e0145914fbacda5d2716d1[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Thu Feb 13 19:52:08 2020 +0100
+
+    fin tema 28: Listado de artistas paginado
+
+[33mcommit 32a430917e041278f31edb433e7af75d322a3aa1[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Tue Feb 4 20:44:07 2020 +0100
+
+    fin tema 27: Conseguir un artista
+
+[33mcommit 158671c6283bf2379e7d1a82ad4e693114e37824[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Tue Feb 4 20:14:35 2020 +0100
+
+    fin tema 25-26: Crear el controlador y las rutas - Crear un artista
+
+[33mcommit 341e4bb7b68490ac54569942947c5a7b47284071[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Tue Feb 4 19:22:18 2020 +0100
+
+    fin tema 24: Conseguir la imagen del usuario
+
+[33mcommit 4e4269d30d9a14ac3d3704dc714a1b349c39493a[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Tue Feb 4 18:40:57 2020 +0100
+
+    fin tema 23: Subir el avatar del usuario
+
+[33mcommit 6bbd2e980f071d512c9f939ca2ff67c6c726ef3b[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Mon Feb 3 22:57:23 2020 +0100
+
+    Consulta error en mitad del tema 23
+
+[33mcommit 88c4ac75b6a12f3449d2a5eefc6c8d1fc11b3ec2[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Mon Feb 3 18:52:23 2020 +0100
+
+    fin tema 22: Actualizar usuario
+
+[33mcommit 12bad30b1c5d11306ad217cc2abe86de29d07df3[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Mon Feb 3 18:30:44 2020 +0100
+
+    fin tema 21: Middleware de autenticación
+
+[33mcommit f45b2b9a8ece5b64290751ccb1dbe9265924bd05[m
+Author: Alvar <valenciawalas@hotmail.com>
+Date:   Thu Jan 30 21:18:19 2020 +0100
+
+    Curso Angular fin tema 20: Crear servicio para JWT
