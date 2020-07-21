@@ -10,6 +10,8 @@ var md_upload = multipart({ uploadDir: './uploads/songs'});
 
 api.get('/song/:id', md_auth.ensureAuth, SongController.getSong);
 api.post('/song', md_auth.ensureAuth, SongController.saveSong);
+api.get('/songs/:album?', md_auth.ensureAuth, SongController.getSongs);
+api.put('/song/:id', md_auth.ensureAuth, SongController.updateSong);
 
 
 // para poder usarlo fuera de este fichero
