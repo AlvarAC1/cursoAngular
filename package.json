@@ -16,7 +16,7 @@
     "express": "^4.14.0",
     "jwt-simple": "^0.5.6",
     "moment": "^2.17.1",
-    "mongoose": "^4.7.4",
+    "mongoose": "^4.13.21",
     "mongoose-pagination": "^1.0.0"
   },
   "devDependencies": {
